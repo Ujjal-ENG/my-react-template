@@ -16,16 +16,16 @@
         "no-empty": "error",
         "default-case": "error",
         "eqeqeq": "error",
-        "react/react-in-jsx-scope": 0,
+        "react/react-in-jsx-scope": "off",
         "react-hooks/rules-of-hooks": "error",
-        "no-console": 0,
-        "react/state-in-constructor": 0,
-        "indent": 0,
-        "linebreak-style": 0,
-        "react/prop-types": 0,
-        "jsx-a11y/click-events-have-key-events": 0,
+        "no-console": "off",
+        "react/state-in-constructor": "off",
+        "indent": "off",
+        "linebreak-style": "off",
+        "react/prop-types": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
         "react/jsx-filename-extension": [
-            1,
+            "error",
             {
                 "extensions": [".js", ".jsx"]
             }
