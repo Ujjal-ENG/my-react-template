@@ -7,7 +7,7 @@
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview",
-        "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+        "lint": "npm i -D prettier && npm i -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && npm i -D eslint-config-prettier eslint-plugin-prettier"
     },
     "dependencies": {
         "localforage": "^1.10.0",
@@ -22,7 +22,17 @@
         "@types/react-dom": "^18.0.11",
         "@vitejs/plugin-react": "^3.1.0",
         "autoprefixer": "^10.4.14",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^8.2.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.28.0",
+        "eslint-plugin-react-hooks": "^4.3.0",
         "postcss": "^8.4.21",
+        "prettier": "^2.8.7",
         "tailwindcss": "^3.3.1",
         "vite": "^4.2.0"
     }

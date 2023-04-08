@@ -1,14 +1,18 @@
 {
     "env": {
         "browser": true,
-        "commonjs": true,
-        "es2021": true
+        "es2021": true,
+        "node": true,
+        "jest": true
     },
-    "extends": ["airbnb", "airbnb/hooks", "eslint:recommended", "prettier", "plugin:jsx-a11y/recommended"],
-    "parser": "babel-eslint",
-    "overrides": [],
+    "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react-hooks/recommended", "plugin:jsx-a11y/recommended", "airbnb"],
+
     "parserOptions": {
-        "ecmaVersion": "latest"
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2022,
+        "sourceType": "module"
     },
     "rules": {
         "no-var": "error",
@@ -25,7 +29,7 @@
         "react/prop-types": "off",
         "jsx-a11y/click-events-have-key-events": "off",
         "react/jsx-filename-extension": [
-            "error",
+            "warn",
             {
                 "extensions": [".js", ".jsx"]
             }
@@ -42,5 +46,10 @@
             }
         ]
     },
-    "plugins": ["prettier", "react", "react-hooks"]
+    "plugins": ["prettier", "react", "react-hooks"],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
 }
