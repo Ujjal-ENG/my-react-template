@@ -24,7 +24,7 @@
         "react-hooks/rules-of-hooks": "error",
         "no-console": "off",
         "react/state-in-constructor": "off",
-        "indent": "off",
+        "indent": "on",
         "linebreak-style": "off",
         "react/prop-types": "off",
         "jsx-a11y/click-events-have-key-events": "off",
@@ -32,17 +32,6 @@
             "warn",
             {
                 "extensions": [".js", ".jsx"]
-            }
-        ],
-        "prettier/prettier": [
-            "error",
-            {
-                "trailingComma": "es5",
-                "singleQuote": true,
-                "printWidth": 100,
-                "tabWidth": 4,
-                "semi": true,
-                "endOfLine": "auto"
             }
         ]
     },
