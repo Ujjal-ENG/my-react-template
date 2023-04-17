@@ -24,7 +24,7 @@
         "react-hooks/rules-of-hooks": "error",
         "no-console": "off",
         "react/state-in-constructor": "off",
-        "indent": "on",
+        "indent": "off",
         "linebreak-style": "off",
         "react/prop-types": "off",
         "jsx-a11y/click-events-have-key-events": "off",
