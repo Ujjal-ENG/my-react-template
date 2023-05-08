@@ -17,6 +17,7 @@
     "rules": {
         "no-var": "error",
         "camelcase": "error",
+        "arrow-body-style": 0,
         "no-empty": "error",
         "default-case": "error",
         "eqeqeq": "error",
@@ -24,6 +25,7 @@
         "react-hooks/rules-of-hooks": "error",
         "no-console": "off",
         "react/state-in-constructor": "off",
+        "react/function-component-definition": 0,
         "indent": "off",
         "linebreak-style": "off",
         "react/prop-types": "off",
