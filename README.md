@@ -1,1 +1,1 @@
-# my-react-template ©️ Ujjal Kumar Roy
+©️ Ujjal Kumar Roy
