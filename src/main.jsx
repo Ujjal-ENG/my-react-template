@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { AuthProvider } from './context/AuthContext.js';
+import { AuthProvider } from './components/AuthProvider';
 import { ThemeProvider } from './contexts/ThemeContext';
 // Import global styles
 import './assets/styles/index.css';
